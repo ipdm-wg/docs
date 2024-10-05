@@ -120,7 +120,7 @@ export default function PaperSection() {
                   </li>
                   <li>
                     <h4 className="font-semibold retro-text">Internet of Things (IoT)</h4>
-                    <p>IPDM's architecture is well-suited for IoT applications, enabling real-time processing of sensor data, efficient storage and retrieval of time-series data, and support for edge computing scenarios.</p>
+                    <p>IPDM&apos;s architecture is well-suited for IoT applications, enabling real-time processing of sensor data, efficient storage and retrieval of time-series data, and support for edge computing scenarios.</p>
                   </li>
                   <li>
                     <h4 className="font-semibold retro-text">Big Data Analytics</h4>
@@ -144,7 +144,7 @@ export default function PaperSection() {
                 <ul className="space-y-4">
                   <li>
                     <h4 className="font-semibold retro-text">AI-Driven Optimizations</h4>
-                    <p>Future research will focus on leveraging artificial intelligence to enhance IPDM's performance. This includes developing machine learning models for predictive data placement and routing, AI-assisted query optimization and execution planning, and automated system tuning based on network conditions and usage patterns.</p>
+                    <p>Future research will focus on leveraging artificial intelligence to enhance IPDM&apos;s performance. This includes developing machine learning models for predictive data placement and routing, AI-assisted query optimization and execution planning, and automated system tuning based on network conditions and usage patterns.</p>
                   </li>
                   <li>
                     <h4 className="font-semibold retro-text">Advanced Compression Techniques</h4>
@@ -152,7 +152,7 @@ export default function PaperSection() {
                   </li>
                   <li>
                     <h4 className="font-semibold retro-text">Cross-Chain Interoperability</h4>
-                    <p>Expanding IPDM's role as a bridge between different blockchain ecosystems. This includes developing a universal cross-chain communication protocol, researching efficient state synchronization between heterogeneous chains, and exploring chain-agnostic smart contract execution environments.</p>
+                    <p>Expanding IPDM&apos;s role as a bridge between different blockchain ecosystems. This includes developing a universal cross-chain communication protocol, researching efficient state synchronization between heterogeneous chains, and exploring chain-agnostic smart contract execution environments.</p>
                   </li>
                   <li>
                     <h4 className="font-semibold retro-text">Quantum-Resistant Cryptography</h4>

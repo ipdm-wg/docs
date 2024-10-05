@@ -1,6 +1,6 @@
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { ArrowRight, Github, Globe, BookOpen, Users } from "lucide-react"
+// import { Button } from "@/components/ui/button"
+// import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+// import { ArrowRight, Github, Globe, BookOpen, Users } from "lucide-react"
 
 export default function AdditionalLandingSections() {
   return (

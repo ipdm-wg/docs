@@ -10,7 +10,7 @@ export default function CypherSection() {
             Cypher: IPDM in Action
           </h2>
           <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-          A novel indexing solution for Solana that leverages ZK compression, off-chain storage, and the IPDM to achieve unprecedented speed and efficiency in data indexing and retrieval. This system addresses Solana's state growth challenges while maintaining security, composability, and near-instantaneous indexing of new accounts.
+          A novel indexing solution for Solana that leverages ZK compression, off-chain storage, and the IPDM to achieve unprecedented speed and efficiency in data indexing and retrieval. This system addresses Solana&apos;s state growth challenges while maintaining security, composability, and near-instantaneous indexing of new accounts.
           </p>
           <ul className="list-disc text-left space-y-2 mt-4">
             <li>Real-time indexing with support for custom WASM-based indexing logic</li>

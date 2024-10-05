@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { ArrowRight, Database, Globe, Zap, Shield, Cog, Layers } from "lucide-react"
+import { Database, Globe, Zap, Shield, Cog, Layers } from "lucide-react"
 
 export default function FeaturesSection() {
   return (
@@ -15,7 +15,7 @@ export default function FeaturesSection() {
               <CardTitle className="retro-text">Quantum-Speed Data Transfer</CardTitle>
             </CardHeader>
             <CardContent>
-              <p>Experience blazing-fast data transfer speeds that push the boundaries of what's possible. IPDM's innovative routing algorithms and optimized network protocols ensure data reaches its destination at unprecedented velocities.</p>
+              <p>Experience blazing-fast data transfer speeds that push the boundaries of what&apos;s possible. IPDM&apos;s innovative routing algorithms and optimized network protocols ensure data reaches its destination at unprecedented velocities.</p>
               <ul className="list-disc list-inside mt-2">
                 <li>Advanced routing algorithms</li>
                 <li>Optimized network protocols</li>
@@ -43,7 +43,7 @@ export default function FeaturesSection() {
               <CardTitle className="retro-text">Lossless Data Compression</CardTitle>
             </CardHeader>
             <CardContent>
-              <p>Maximize storage efficiency without compromising data integrity. IPDM's advanced compression techniques significantly reduce data size while ensuring perfect reconstruction of the original information.</p>
+              <p>Maximize storage efficiency without compromising data integrity. IPDM&apos;s advanced compression techniques significantly reduce data size while ensuring perfect reconstruction of the original information.</p>
               <ul className="list-disc list-inside mt-2">
                 <li>Adaptive compression selection</li>
                 <li>Context-aware encoding</li>
