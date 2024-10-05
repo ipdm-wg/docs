@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+:root {
+  --font-mono: 'Space Mono', monospace;
+  --background: #0a0a0a;
+  --foreground: #d6e3d6;
+  --primary: #86c2afca;
+  --primary-foreground: #0a0a0a;
+  --secondary: #7a719c;
+  --secondary-foreground: #0a0a0a;
+  --muted: #1a1a1a;
+  --muted-foreground: #888888;
+  --accent: #7c74b9;
+  --accent-foreground: #0a0a0a;
+  --card: #1a1a1a;
+  --card-foreground: #b8ad9e;
+}
+
+body {
+  font-family: var(--font-mono);
+  background-color: var(--background);
+  color: var(--foreground);
+  line-height: 1.6;
+}
+
+.retro-container {
+  border: 2px solid var(--primary);
+  box-shadow: 0 0 10px var(--primary), 0 0 20px var(--secondary);
+  background: rgba(10, 10, 10, 0.8);
+  backdrop-filter: blur(10px);
+}
+
+.retro-text {
+  text-shadow: 0 0 5px var(--primary);
+}
+
+.retro-button {
+  background: var(--primary);
+  color: var(--primary-foreground);
+  border: 2px solid var(--secondary);
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.retro-button:hover {
+  background: var(--secondary);
+  color: var(--secondary-foreground);
+  box-shadow: 0 0 10px var(--secondary);
+}
+
+.retro-card {
+  background: var(--card);
+  border: 1px solid var(--primary);
+  box-shadow: 0 0 5px var(--primary);
+  transition: all 0.3s ease;
+}
+
+.retro-card:hover {
+  box-shadow: 0 0 15px var(--primary), 0 0 30px var(--secondary);
+}
+
+.retro-input {
+  background: var(--muted);
+  color: var(--foreground);
+  border: 1px solid var(--primary);
+}
+
+.retro-input:focus {
+  box-shadow: 0 0 5px var(--primary);
+}
+
+/* Add some retro-futuristic accents */
+.retro-accent::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  border: 2px solid var(--accent);
+  z-index: -1;
+  filter: blur(5px);
+}
+
+/* Glowing effect for important elements */
+.glow {
+  animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px var(--primary), 0 0 20px var(--primary), 0 0 35px var(--primary), 0 0 40px var(--primary), 0 0 50px var(--primary);
+  }
+  to {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px var(--secondary), 0 0 40px var(--secondary), 0 0 50px var(--secondary), 0 0 60px var(--secondary), 0 0 70px var(--secondary);
+  }
+}
