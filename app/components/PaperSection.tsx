@@ -52,19 +52,49 @@ export default function PaperSection() {
                 <ul className="space-y-4">
                   <li>
                     <h4 className="font-semibold retro-text">Network Layer</h4>
-                    <p>Built on libp2p, this layer handles node discovery, connection management, and data transmission. It uses mDNS for local network discovery and a Kademlia DHT for global peer discovery. QUIC protocol is employed for low-latency, reliable data transfer. NAT traversal is achieved through STUN, TURN, and ICE techniques.</p>
+                    <p>Built on libp2p with specialized components for Filecoin and IPFS integration. Implements:
+                      - Graphsync and Bitswap protocols for efficient data retrieval
+                      - Advanced retrieval strategies with timeout management and fallback mechanisms
+                      - Provider-aware routing optimization
+                    </p>
                   </li>
+
                   <li>
                     <h4 className="font-semibold retro-text">Data Layer</h4>
-                    <p>Integrates IPFS for content-addressed storage with custom enhancements. It implements advanced compression techniques including Zstandard, Bit-packing, and Run-length Encoding. A multi-tiered caching system is used for frequently accessed data. Data blocks are the fundamental unit, content-addressed and immutable.</p>
+                    <p>Implements a sophisticated DAG-based data management system:
+                      - Smart data splitting with configurable chunk sizes (64MB-1GB)
+                      - Multi-tier storage with warm/cold data separation
+                      - ZStandard compression with optimized dictionary encoding
+                      - Content-addressed storage using CIDs
+                      - Access pattern-aware data organization
+                      - Reference locality optimization
+                    </p>
                   </li>
+
                   <li>
                     <h4 className="font-semibold retro-text">Processing Layer</h4>
-                    <p>Utilizes a WebAssembly runtime for efficient, sandboxed execution of user-defined functions. It includes a data flow engine for managing processing pipelines, a query optimizer for complex query analysis, and a distributed compute scheduler for coordinating tasks across the network.</p>
+                    <p>Advanced data processing architecture featuring:
+                      - DAG-aware parallel processing engine
+                      - Optimized retrieval paths based on access patterns
+                      - Concurrent chunk processing with semaphore-based control
+                      - Smart caching system for frequently accessed data
+                      - Entry point detection and optimization
+                      - Reference tracking and relationship mapping
+                      - CID-based integrity verification
+                    </p>
                   </li>
+
                   <li>
-                    <h4 className="font-semibold retro-text">Consensus Layer</h4>
-                    <p>Implements a Proof of Replication (PoRep) mechanism to ensure data availability and integrity. A rapid consensus protocol provides low-latency finality. It includes a slashing mechanism to penalize malicious or unreliable nodes and an incentive structure to reward nodes for contributing resources and maintaining data.</p>
+                    <h4 className="font-semibold retro-text">Optimization Layer</h4>
+                    <p>Sophisticated optimization mechanisms including:
+                      - Adaptive chunk sizing based on data relationships
+                      - Reference locality preservation during splitting
+                      - Access pattern analysis and optimization
+                      - Smart merging of related data chunks
+                      - Entry point-based chunk boundary detection
+                      - Concurrent processing optimization
+                      - Memory-efficient data handling
+                    </p>
                   </li>
                 </ul>
               </CardContent>
@@ -155,10 +185,6 @@ export default function PaperSection() {
                     <p>Expanding IPDM&apos;s role as a bridge between different blockchain ecosystems. This includes developing a universal cross-chain communication protocol, researching efficient state synchronization between heterogeneous chains, and exploring chain-agnostic smart contract execution environments.</p>
                   </li>
                   <li>
-                    <h4 className="font-semibold retro-text">Quantum-Resistant Cryptography</h4>
-                    <p>As quantum computing advances, IPDM will need to evolve its cryptographic foundations. Research will focus on post-quantum cryptographic algorithms, implementing hybrid classical-quantum resistant schemes, and developing quantum-safe consensus mechanisms.</p>
-                  </li>
-                  <li>
                     <h4 className="font-semibold retro-text">Privacy-Preserving Computation at Scale</h4>
                     <p>Advancing the field of secure multi-party computation and privacy-preserving analytics. This involves developing scalable implementations of fully homomorphic encryption, creating efficient zero-knowledge proof systems for complex computations, and researching privacy-preserving machine learning techniques compatible with IPDM.</p>
                   </li>
@@ -168,6 +194,6 @@ export default function PaperSection() {
           </TabsContent>
         </Tabs>
       </div>
-    </section>
+    </section >
   )
 }

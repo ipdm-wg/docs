@@ -14,7 +14,7 @@ export default function CypherSection() {
           </p>
           <ul className="list-disc text-left space-y-2 mt-4">
             <li>Real-time indexing with support for custom WASM-based indexing logic</li>
-            <li>Multi-tiered storage (Redis, ScyllaDB, ClickHouse) for optimized data access</li>
+            <li>Multi-tiered storage (Redis, ScyllaDB) for optimized data access</li>
             <li>Advanced querying via GraphQL and REST APIs for flexible data retrieval</li>
             <li>High-performance gRPC interface with fallback to HTTP/JSON-RPC</li>
             <li>Scalable architecture supporting parallel processing and sharding</li>
