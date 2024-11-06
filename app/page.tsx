@@ -4,7 +4,7 @@ import Hero from './components/Hero'
 import PaperSection from './components/PaperSection'
 import FeaturesSection from './components/FeaturesSection'
 import AdditionalLandingSections from './components/PlusSection'
-import CypherSection from './components/CypherSection'
+import WindexerSection from './components/WindexerSection'
 import Footer from './components/Footer'
 
 export default function IPDMLanding() {
@@ -15,7 +15,7 @@ export default function IPDMLanding() {
         <Hero />
         <FeaturesSection />
         <AdditionalLandingSections />
-        <CypherSection />
+        <WindexerSection />
         <PaperSection />
       </main>
       <Footer />

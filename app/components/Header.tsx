@@ -18,8 +18,8 @@ export default function Header() {
         <Link className="text-sm font-medium hover:text-secondary transition-colors" href="https://github.com/ipdm-wg" target="_blank" rel="noopener noreferrer">
           <Github className="h-5 w-5" />
         </Link>
-        <Link className="text-sm font-medium hover:text-secondary transition-colors" href="https://cypheros.xyz/" target="_blank" rel="noopener noreferrer">
-          Cypher
+        <Link className="text-sm font-medium hover:text-secondary transition-colors" href="https://Windexeros.xyz/" target="_blank" rel="noopener noreferrer">
+          Windexer
         </Link>
       </nav>
     </header>
