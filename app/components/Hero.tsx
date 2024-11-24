@@ -23,7 +23,7 @@ export default function Hero() {
               Interplanetary Data Machine
             </h1>
             <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-              Innovating global data management with unprecedented speed and scale. From Earth to Mars and beyond, IPDM is the future of interplanetary information exchange.
+              Innovating global data management with unprecedented speed and scale. IPDM aims to minimize latency and maximize throughput across planetary-scale networks.
             </p>
           </div>
           <div className="space-x-4">
