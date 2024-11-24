@@ -164,7 +164,7 @@ export default function PaperSection() {
               </CardContent>
             </Card>
           </TabsContent>
-          <TabsContent value="future">
+          {/* <TabsContent value="future">
             <Card className="retro-card">
               <CardHeader>
                 <CardTitle className="retro-text">Future Research Directions</CardTitle>
@@ -191,7 +191,7 @@ export default function PaperSection() {
                 </ul>
               </CardContent>
             </Card>
-          </TabsContent>
+          </TabsContent> */}
         </Tabs>
       </div>
     </section >

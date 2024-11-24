@@ -12,7 +12,7 @@ export default function FeaturesSection() {
           <Card className="retro-card">
             <CardHeader>
               <Zap className="h-8 w-8 mb-2 text-primary" />
-              <CardTitle className="retro-text">Quantum-Speed Data Transfer</CardTitle>
+              <CardTitle className="retro-text">Lightspeed Data Transfer</CardTitle>
             </CardHeader>
             <CardContent>
               <p>Experience blazing-fast data transfer speeds that push the boundaries of what&apos;s possible. IPDM&apos;s innovative routing algorithms and optimized network protocols ensure data reaches its destination at unprecedented velocities.</p>
